@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78046DE723078F0D0081E90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78046DE623078F0D0081E90C /* AppDelegate.swift */; };
+		78046DE923078F0D0081E90C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78046DE823078F0D0081E90C /* GameScene.sks */; };
+		78046DEB23078F0D0081E90C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78046DEA23078F0D0081E90C /* Actions.sks */; };
+		78046DED23078F0D0081E90C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78046DEC23078F0D0081E90C /* GameScene.swift */; };
+		78046DEF23078F0D0081E90C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78046DEE23078F0D0081E90C /* GameViewController.swift */; };
+		78046DF223078F0D0081E90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78046DF023078F0D0081E90C /* Main.storyboard */; };
+		78046DF423078F0D0081E90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78046DF323078F0D0081E90C /* Assets.xcassets */; };
+		78046DF723078F0D0081E90C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78046DF523078F0D0081E90C /* LaunchScreen.storyboard */; };
+		78046E0223078F0D0081E90C /* Fishie_AdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78046E0123078F0D0081E90C /* Fishie_AdventureTests.swift */; };
+		78046E0D23078F0E0081E90C /* Fishie_AdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78046E0C23078F0E0081E90C /* Fishie_AdventureUITests.swift */; };
+		7826A3A3233F147900A56374 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7826A3A2233F147900A56374 /* GameOverScene.swift */; };
+		7826A3A5233F22BC00A56374 /* GameWonScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7826A3A4233F22BC00A56374 /* GameWonScene.swift */; };
+		7861481923C330C400F5CA58 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861481823C330C400F5CA58 /* MainMenuScene.swift */; };
+		787B755023BF1E8000DC5300 /* character.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 787B754F23BF1E8000DC5300 /* character.atlas */; };
+		787B755223C09C7A00DC5300 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 787B755123C09C7900DC5300 /* backgroundMusic.mp3 */; };
+		78E916AC2333715C0036B93E /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78E916AB2333715C0036B93E /* Lato-Medium.ttf */; };
+		78F1E12E232794BC00B14790 /* fishOutline.sks in Resources */ = {isa = PBXBuildFile; fileRef = 78F1E12C232794BC00B14790 /* fishOutline.sks */; };
+		78F1E12F232794BC00B14790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F1E12D232794BC00B14790 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78046DFE23078F0D0081E90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78046DDB23078F0D0081E90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78046DE223078F0D0081E90C;
+			remoteInfo = "Fishie Adventure";
+		};
+		78046E0923078F0E0081E90C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78046DDB23078F0D0081E90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78046DE223078F0D0081E90C;
+			remoteInfo = "Fishie Adventure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78046DE323078F0D0081E90C /* Fishie Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishie Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78046DE623078F0D0081E90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78046DE823078F0D0081E90C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		78046DEA23078F0D0081E90C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		78046DEC23078F0D0081E90C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		78046DEE23078F0D0081E90C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		78046DF123078F0D0081E90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78046DF323078F0D0081E90C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78046DF623078F0D0081E90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78046DF823078F0D0081E90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78046DFD23078F0D0081E90C /* Fishie AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fishie AdventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78046E0123078F0D0081E90C /* Fishie_AdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishie_AdventureTests.swift; sourceTree = "<group>"; };
+		78046E0323078F0D0081E90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78046E0823078F0E0081E90C /* Fishie AdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fishie AdventureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78046E0C23078F0E0081E90C /* Fishie_AdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishie_AdventureUITests.swift; sourceTree = "<group>"; };
+		78046E0E23078F0E0081E90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7826A3A2233F147900A56374 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		7826A3A4233F22BC00A56374 /* GameWonScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWonScene.swift; sourceTree = "<group>"; };
+		7861481823C330C400F5CA58 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		787B754F23BF1E8000DC5300 /* character.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = character.atlas; sourceTree = "<group>"; };
+		787B755123C09C7900DC5300 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backgroundMusic.mp3; path = Assets.xcassets/backgroundMusic.dataset/backgroundMusic.mp3; sourceTree = "<group>"; };
+		78E916AB2333715C0036B93E /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		78F1E12C232794BC00B14790 /* fishOutline.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = fishOutline.sks; path = ../../../fishOutline.sks; sourceTree = "<group>"; };
+		78F1E12D232794BC00B14790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78046DE023078F0D0081E90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78046DFA23078F0D0081E90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78046E0523078F0E0081E90C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78046DDA23078F0D0081E90C = {
+			isa = PBXGroup;
+			children = (
+				78F1E12C232794BC00B14790 /* fishOutline.sks */,
+				78F1E12D232794BC00B14790 /* Assets.xcassets */,
+				78046DE523078F0D0081E90C /* Fishie Adventure */,
+				78046E0023078F0D0081E90C /* Fishie AdventureTests */,
+				78046E0B23078F0E0081E90C /* Fishie AdventureUITests */,
+				78046DE423078F0D0081E90C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78046DE423078F0D0081E90C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78046DE323078F0D0081E90C /* Fishie Adventure.app */,
+				78046DFD23078F0D0081E90C /* Fishie AdventureTests.xctest */,
+				78046E0823078F0E0081E90C /* Fishie AdventureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78046DE523078F0D0081E90C /* Fishie Adventure */ = {
+			isa = PBXGroup;
+			children = (
+				787B754F23BF1E8000DC5300 /* character.atlas */,
+				78046DE623078F0D0081E90C /* AppDelegate.swift */,
+				78046DE823078F0D0081E90C /* GameScene.sks */,
+				7826A3A2233F147900A56374 /* GameOverScene.swift */,
+				78046DEA23078F0D0081E90C /* Actions.sks */,
+				78046DEC23078F0D0081E90C /* GameScene.swift */,
+				787B755123C09C7900DC5300 /* backgroundMusic.mp3 */,
+				7826A3A4233F22BC00A56374 /* GameWonScene.swift */,
+				7861481823C330C400F5CA58 /* MainMenuScene.swift */,
+				78046DEE23078F0D0081E90C /* GameViewController.swift */,
+				78046DF023078F0D0081E90C /* Main.storyboard */,
+				78E916AB2333715C0036B93E /* Lato-Medium.ttf */,
+				78046DF323078F0D0081E90C /* Assets.xcassets */,
+				78046DF523078F0D0081E90C /* LaunchScreen.storyboard */,
+				78046DF823078F0D0081E90C /* Info.plist */,
+			);
+			path = "Fishie Adventure";
+			sourceTree = "<group>";
+		};
+		78046E0023078F0D0081E90C /* Fishie AdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				78046E0123078F0D0081E90C /* Fishie_AdventureTests.swift */,
+				78046E0323078F0D0081E90C /* Info.plist */,
+			);
+			path = "Fishie AdventureTests";
+			sourceTree = "<group>";
+		};
+		78046E0B23078F0E0081E90C /* Fishie AdventureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78046E0C23078F0E0081E90C /* Fishie_AdventureUITests.swift */,
+				78046E0E23078F0E0081E90C /* Info.plist */,
+			);
+			path = "Fishie AdventureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78046DE223078F0D0081E90C /* Fishie Adventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78046E1123078F0E0081E90C /* Build configuration list for PBXNativeTarget "Fishie Adventure" */;
+			buildPhases = (
+				78046DDF23078F0D0081E90C /* Sources */,
+				78046DE023078F0D0081E90C /* Frameworks */,
+				78046DE123078F0D0081E90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fishie Adventure";
+			productName = "Fishie Adventure";
+			productReference = 78046DE323078F0D0081E90C /* Fishie Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78046DFC23078F0D0081E90C /* Fishie AdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78046E1423078F0E0081E90C /* Build configuration list for PBXNativeTarget "Fishie AdventureTests" */;
+			buildPhases = (
+				78046DF923078F0D0081E90C /* Sources */,
+				78046DFA23078F0D0081E90C /* Frameworks */,
+				78046DFB23078F0D0081E90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78046DFF23078F0D0081E90C /* PBXTargetDependency */,
+			);
+			name = "Fishie AdventureTests";
+			productName = "Fishie AdventureTests";
+			productReference = 78046DFD23078F0D0081E90C /* Fishie AdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78046E0723078F0E0081E90C /* Fishie AdventureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78046E1723078F0E0081E90C /* Build configuration list for PBXNativeTarget "Fishie AdventureUITests" */;
+			buildPhases = (
+				78046E0423078F0E0081E90C /* Sources */,
+				78046E0523078F0E0081E90C /* Frameworks */,
+				78046E0623078F0E0081E90C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78046E0A23078F0E0081E90C /* PBXTargetDependency */,
+			);
+			name = "Fishie AdventureUITests";
+			productName = "Fishie AdventureUITests";
+			productReference = 78046E0823078F0E0081E90C /* Fishie AdventureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78046DDB23078F0D0081E90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Allan Che";
+				TargetAttributes = {
+					78046DE223078F0D0081E90C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					78046DFC23078F0D0081E90C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 78046DE223078F0D0081E90C;
+					};
+					78046E0723078F0E0081E90C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 78046DE223078F0D0081E90C;
+					};
+				};
+			};
+			buildConfigurationList = 78046DDE23078F0D0081E90C /* Build configuration list for PBXProject "Fishie Adventure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78046DDA23078F0D0081E90C;
+			productRefGroup = 78046DE423078F0D0081E90C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78046DE223078F0D0081E90C /* Fishie Adventure */,
+				78046DFC23078F0D0081E90C /* Fishie AdventureTests */,
+				78046E0723078F0E0081E90C /* Fishie AdventureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78046DE123078F0D0081E90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F1E12E232794BC00B14790 /* fishOutline.sks in Resources */,
+				78E916AC2333715C0036B93E /* Lato-Medium.ttf in Resources */,
+				78046DF223078F0D0081E90C /* Main.storyboard in Resources */,
+				787B755023BF1E8000DC5300 /* character.atlas in Resources */,
+				78046DE923078F0D0081E90C /* GameScene.sks in Resources */,
+				78046DF423078F0D0081E90C /* Assets.xcassets in Resources */,
+				78F1E12F232794BC00B14790 /* Assets.xcassets in Resources */,
+				78046DF723078F0D0081E90C /* LaunchScreen.storyboard in Resources */,
+				787B755223C09C7A00DC5300 /* backgroundMusic.mp3 in Resources */,
+				78046DEB23078F0D0081E90C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78046DFB23078F0D0081E90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78046E0623078F0E0081E90C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78046DDF23078F0D0081E90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7861481923C330C400F5CA58 /* MainMenuScene.swift in Sources */,
+				78046DED23078F0D0081E90C /* GameScene.swift in Sources */,
+				78046DEF23078F0D0081E90C /* GameViewController.swift in Sources */,
+				7826A3A3233F147900A56374 /* GameOverScene.swift in Sources */,
+				7826A3A5233F22BC00A56374 /* GameWonScene.swift in Sources */,
+				78046DE723078F0D0081E90C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78046DF923078F0D0081E90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78046E0223078F0D0081E90C /* Fishie_AdventureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78046E0423078F0E0081E90C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78046E0D23078F0E0081E90C /* Fishie_AdventureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78046DFF23078F0D0081E90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78046DE223078F0D0081E90C /* Fishie Adventure */;
+			targetProxy = 78046DFE23078F0D0081E90C /* PBXContainerItemProxy */;
+		};
+		78046E0A23078F0E0081E90C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78046DE223078F0D0081E90C /* Fishie Adventure */;
+			targetProxy = 78046E0923078F0E0081E90C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78046DF023078F0D0081E90C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78046DF123078F0D0081E90C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78046DF523078F0D0081E90C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78046DF623078F0D0081E90C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78046E0F23078F0E0081E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78046E1023078F0E0081E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78046E1223078F0E0081E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fishie Adventure/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allanGames.Fishie-Adventure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78046E1323078F0E0081E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fishie Adventure/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allanGames.Fishie-Adventure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78046E1523078F0E0081E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fishie AdventureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allanGames.Fishie-AdventureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fishie Adventure.app/Fishie Adventure";
+			};
+			name = Debug;
+		};
+		78046E1623078F0E0081E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fishie AdventureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allanGames.Fishie-AdventureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fishie Adventure.app/Fishie Adventure";
+			};
+			name = Release;
+		};
+		78046E1823078F0E0081E90C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fishie AdventureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allanGames.Fishie-AdventureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fishie Adventure";
+			};
+			name = Debug;
+		};
+		78046E1923078F0E0081E90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fishie AdventureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "allanGames.Fishie-AdventureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fishie Adventure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78046DDE23078F0D0081E90C /* Build configuration list for PBXProject "Fishie Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78046E0F23078F0E0081E90C /* Debug */,
+				78046E1023078F0E0081E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78046E1123078F0E0081E90C /* Build configuration list for PBXNativeTarget "Fishie Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78046E1223078F0E0081E90C /* Debug */,
+				78046E1323078F0E0081E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78046E1423078F0E0081E90C /* Build configuration list for PBXNativeTarget "Fishie AdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78046E1523078F0E0081E90C /* Debug */,
+				78046E1623078F0E0081E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78046E1723078F0E0081E90C /* Build configuration list for PBXNativeTarget "Fishie AdventureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78046E1823078F0E0081E90C /* Debug */,
+				78046E1923078F0E0081E90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78046DDB23078F0D0081E90C /* Project object */;
+}
