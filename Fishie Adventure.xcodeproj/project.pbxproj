@@ -19,6 +19,7 @@
 		78046E0D23078F0E0081E90C /* Fishie_AdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78046E0C23078F0E0081E90C /* Fishie_AdventureUITests.swift */; };
 		7826A3A3233F147900A56374 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7826A3A2233F147900A56374 /* GameOverScene.swift */; };
 		7826A3A5233F22BC00A56374 /* GameWonScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7826A3A4233F22BC00A56374 /* GameWonScene.swift */; };
+		782B4DDF23D8030300A552D1 /* GameSceneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782B4DDE23D8030300A552D1 /* GameSceneTest.swift */; };
 		7861481923C330C400F5CA58 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7861481823C330C400F5CA58 /* MainMenuScene.swift */; };
 		787B755023BF1E8000DC5300 /* character.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 787B754F23BF1E8000DC5300 /* character.atlas */; };
 		787B755223C09C7A00DC5300 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 787B755123C09C7900DC5300 /* backgroundMusic.mp3 */; };
@@ -63,6 +64,7 @@
 		78046E0E23078F0E0081E90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7826A3A2233F147900A56374 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		7826A3A4233F22BC00A56374 /* GameWonScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWonScene.swift; sourceTree = "<group>"; };
+		782B4DDE23D8030300A552D1 /* GameSceneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneTest.swift; sourceTree = "<group>"; };
 		7861481823C330C400F5CA58 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		787B754F23BF1E8000DC5300 /* character.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = character.atlas; sourceTree = "<group>"; };
 		787B755123C09C7900DC5300 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backgroundMusic.mp3; path = Assets.xcassets/backgroundMusic.dataset/backgroundMusic.mp3; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				7826A3A2233F147900A56374 /* GameOverScene.swift */,
 				78046DEA23078F0D0081E90C /* Actions.sks */,
 				78046DEC23078F0D0081E90C /* GameScene.swift */,
+				782B4DDE23D8030300A552D1 /* GameSceneTest.swift */,
 				787B755123C09C7900DC5300 /* backgroundMusic.mp3 */,
 				7826A3A4233F22BC00A56374 /* GameWonScene.swift */,
 				7861481823C330C400F5CA58 /* MainMenuScene.swift */,
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782B4DDF23D8030300A552D1 /* GameSceneTest.swift in Sources */,
 				78046E0223078F0D0081E90C /* Fishie_AdventureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
